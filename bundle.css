@@ -333,10 +333,11 @@ video {
 .app__infodialog,
 .app__dialog {
   z-index: 12;
-  background-color: #fff;
+  color: #a2b3b3;
+  background-color: #312b2b;
   width: 290px;
   height: 180px;
-  border-radius: 8px;
+  /*border-radius: 8px;*/
   display: flex;
   position: absolute;
   left: 0;
@@ -364,7 +365,7 @@ video {
 }
 
 .app__infodialog-subcontent a {
-  color: #1b1eb5;
+  color: #6d6e9f;
 }
 
 .app__infodialog-subcontent p:not(:first-child) {
@@ -386,7 +387,8 @@ video {
   border-bottom: 1px solid rgba(0,0,0,.24);
   outline: none;
   font-size: 15px;
-  color: #1b1eb5;
+  color: #9d9292;
+  background-color: #0a0909;
   font-weight: 500;
 }
 
@@ -411,6 +413,7 @@ video {
   outline: none;
   cursor: pointer;
   margin-right: -15px;
+  color: #93a3a3;
 }
 
 .app__dialog-open {
@@ -506,7 +509,8 @@ video {
   bottom: 20px;
   right: 20px;
   border-radius: 50%;
-  background-color: #3F51B5;
+  /*background-color: #3F51B5;*/
+  background-color: #307033;
   display: flex;
   align-items: center;
   justify-content: center;
